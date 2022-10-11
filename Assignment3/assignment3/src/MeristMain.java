@@ -4,13 +4,13 @@ import model.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MeristMain {
+public class MaristMain {
     public static void main(String[] args) {
-        Employee employee = new Employee(1, "Jagan","12345678","jagan@gmail.com");
-        Employee employee1 =  new Employee(2, "John","09876544","john@gmail.com");
+        Employee employee = new Employee(1, "MIKE","12345678","jagan@gmail.com");
+        Employee employee1 =  new Employee(2, "REZA","09876544","john@gmail.com");
 
-        Course course = new Course("MTH101","Maths",60,35);
-        Course course1 = new Course("MTH103","Advance Maths",60,40);
+        Course course = new Course("CS201","Maths",60,35);
+        Course course1 = new Course("CS501","OOPS",60,40);
         Course course2 = new Course("CS101","Computer Science",40, 50);
         Course course3 = new Course("CS103","Data Mining",90,35);
         Course course4 = new Course("CS104","Data Science",90,35);
